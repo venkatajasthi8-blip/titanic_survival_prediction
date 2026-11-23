@@ -1,6 +1,6 @@
 # Titanic Survival Prediction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_GITHUB_USERNAME/titanic-survival-prediction/blob/main/titanic_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/drive/1tPjOAWZE1cpTP_z3fDzYwWBJifTv4iwK#scrollTo=aPouS-82k3yy)
 
 An end-to-end machine learning project on the Kaggle
 "Titanic - Machine Learning from Disaster" dataset, from raw CSV files to
@@ -32,11 +32,11 @@ Two questions are explored:
 
 | Model | Task | Metric | Score |
 |---|---|---|---|
-| Baseline (always predicts "died") | Classification | Accuracy | 0.XX |
-| Logistic Regression, plain features | Classification | 5-fold CV accuracy | 0.XX |
-| Logistic Regression, engineered features | Classification | 5-fold CV accuracy | 0.XX |
-| Logistic Regression | Classification | ROC AUC | 0.XX |
-| Linear Regression | Fare prediction | R² | 0.XX |
+| Baseline (always predicts "died") | Classification | Accuracy | 0.618 |
+| Logistic Regression, plain features | Classification | 5-fold CV accuracy | 0.787 |
+| Logistic Regression, engineered features | Classification | 5-fold CV accuracy | 0.814 |
+| Logistic Regression | Classification | ROC AUC | 0.857 |
+| Linear Regression | Fare prediction | R² | 0.347 |
 
 ## Exploratory analysis
 
