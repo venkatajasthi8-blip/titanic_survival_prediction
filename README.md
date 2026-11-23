@@ -65,7 +65,7 @@ and the few missing Embarked and Fare values were handled individually.
 
 ![ROC curve](images/roc_curve.png)
 
-![Model coefficients](images/coefficients.png)
+![Model coefficients](images/model_coefficients.png)
 
 ## What I learned
 
