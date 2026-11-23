@@ -1,6 +1,6 @@
 # Titanic Survival Prediction
 
-[!Download the notebook](survival_prediction.ipynb)
+[Download the notebook](survival_prediction.ipynb)
 
 An end-to-end machine learning project on the Kaggle
 "Titanic - Machine Learning from Disaster" dataset, from raw CSV files to
