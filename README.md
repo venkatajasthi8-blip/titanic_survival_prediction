@@ -1,6 +1,6 @@
 # Titanic Survival Prediction
 
-[![Open In Colab](https://colab.research.google.com/drive/1tPjOAWZE1cpTP_z3fDzYwWBJifTv4iwK#scrollTo=aPouS-82k3yy)
+[![Open In Colab](survival_prediction.ipynb)
 
 An end-to-end machine learning project on the Kaggle
 "Titanic - Machine Learning from Disaster" dataset, from raw CSV files to
@@ -69,8 +69,7 @@ and the few missing Embarked and Fare values were handled individually.
 
 ## What I learned
 
-WRITE 3 TO 4 SENTENCES IN YOUR OWN WORDS. For example: what surprised you in
-the data, whether the engineered features helped, and what you would try next.
+Logistic regression reached about 0.814 cross-validated accuracy, compared with 0.618 for a baseline that always predicts “died”, so the model did learn real patterns. Adding engineered features (title, family size, travelling alone) improved accuracy slightly to 0.814, up from 0.787. Linear regression explained only about 35% of the variation in fare (R² of 0.346), mainly because fare is skewed.
 
 ## Limitations and next steps
 
